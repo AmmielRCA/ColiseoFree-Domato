@@ -17,6 +17,7 @@ fieldset {
     grid-area: formulario;
     max-width: 1000px;
     width: 50vw;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -30,3 +31,5 @@ form {
     padding: 2rem;
 
 }
+
+@media screen and (max-width: 992px; ) {}
