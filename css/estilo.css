@@ -437,6 +437,8 @@ form {
   padding: 2rem;
 }
 
+/*
+@media screen and (max-width: 992px; ) {} */
 /* animacion para titulo */
 .animated-shadow {
   padding: 100px;
