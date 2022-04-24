@@ -1,0 +1,105 @@
+// main // 
+
+.main {
+
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+// texto //
+.box1 {
+    color: $colorTextos;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 30px;
+    background-color: $backgroundtitulos2;
+}
+
+// La crew //
+
+.crew {
+    padding: 10px;
+
+    h4 {
+        color: $colorTitulos;
+        font-size: 50px;
+        text-decoration: underline;
+        background-color: $backgroundtitulos2;
+        text-align: center;
+    }
+
+
+
+    img {
+        width: 500px;
+        background-color: black;
+        border-radius: 10px;
+        border: 1px solid rgb(252, 250, 250);
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+//Logros// 
+
+.logros {
+    padding: 2rem;
+    margin: auto;
+    background-color: $backgroundtitulos2;
+    color: $colorTextos2;
+    text-decoration: solid black;
+    font-size: 20px;
+
+    h4 {
+        color: $colorTitulos;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    ul {
+        list-style-position: inside;
+        color: $colorTextos;
+        text-align: center;
+    }
+}
+
+// canciones destacadas //
+
+.sect-destacadas {
+    background-color: $backgroundtitulos2;
+    padding: 30px;
+    font-size: 15px;
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        color: $colorTitulos;
+    }
+
+    .sect-destacadas {
+        color: rgb(250, 250, 250);
+        grid-area: destacadas;
+    }
+
+    .canciones {
+        color: rgb(255, 255, 255);
+    }
+
+    .canciones2 {
+        color: aliceblue;
+    }
+
+    fieldset {
+        color: rgb(9, 255, 103);
+    }
+
+    form {
+        border: 2px solid rgb(20, 207, 51);
+        padding: 1rem;
+    }
+}

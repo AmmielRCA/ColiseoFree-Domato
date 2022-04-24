@@ -1,0 +1,32 @@
+// formulario de contacto //
+
+h2 {
+    color: $colorTitulos;
+}
+
+fieldset {
+    color: rgb(9, 255, 103);
+
+}
+
+.mb3 {
+    color: $colorTextos;
+}
+
+.sect-formulario {
+    grid-area: formulario;
+    max-width: 1000px;
+    width: 50vw;
+    align-items: center;
+}
+
+.sect-pad {
+    padding: 2rem 0;
+
+}
+
+form {
+    border: 2px solid rgb(20, 207, 51);
+    padding: 2rem;
+
+}

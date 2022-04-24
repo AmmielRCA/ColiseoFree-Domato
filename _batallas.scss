@@ -1,0 +1,45 @@
+.video-container {
+    position: absolute;
+    z-index: -100;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: calc(100vw *1, 777)
+}
+
+.video-container video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+}
+
+.header-content {
+    color: aliceblue;
+}
+
+.videoyoutube1 {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "vid1 vid2 vid3"
+        "text1 text2 text3";
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+}
+
+.vid1 {
+    grid-area: vid1;
+}
+
+.vid2 {
+    grid-area: vid2;
+}
+
+.vid3 {
+    grid-area: vid3;
+}

@@ -1,0 +1,489 @@
+@charset "UTF-8";
+/*variables*/
+/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+header {
+  text-align: center;
+  background-color: black;
+}
+
+header h2 {
+  color: #008000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+header h5 {
+  color: #008000;
+  font-size: 25px;
+}
+
+/* MENU NAV */
+.caja {
+  font-size: 1.4rem;
+}
+
+.caja nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caja .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+}
+
+.caja .menu li {
+  display: inline;
+}
+
+.caja .menu li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #d8d4d4;
+}
+
+.caja .menu li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.box1 {
+  color: #d8d4d4;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 30px;
+  background-color: rgba(16, 17, 17, 0.281);
+}
+
+.crew {
+  padding: 10px;
+}
+
+.crew h4 {
+  color: #008000;
+  font-size: 50px;
+  text-decoration: underline;
+  background-color: rgba(16, 17, 17, 0.281);
+  text-align: center;
+}
+
+.crew img {
+  width: 500px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid #fcfafa;
+  display: block;
+  margin: auto;
+}
+
+.logros {
+  padding: 2rem;
+  margin: auto;
+  background-color: rgba(16, 17, 17, 0.281);
+  color: #000000;
+  -webkit-text-decoration: solid black;
+          text-decoration: solid black;
+  font-size: 20px;
+}
+
+.logros h4 {
+  color: #008000;
+  text-align: center;
+  font-size: 50px;
+}
+
+.logros ul {
+  list-style-position: inside;
+  color: #d8d4d4;
+  text-align: center;
+}
+
+.sect-destacadas {
+  background-color: rgba(16, 17, 17, 0.281);
+  padding: 30px;
+  font-size: 15px;
+}
+
+.sect-destacadas h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #008000;
+}
+
+.sect-destacadas .sect-destacadas {
+  color: #fafafa;
+  grid-area: destacadas;
+}
+
+.sect-destacadas .canciones {
+  color: white;
+}
+
+.sect-destacadas .canciones2 {
+  color: aliceblue;
+}
+
+.sect-destacadas fieldset {
+  color: #09ff67;
+}
+
+.sect-destacadas form {
+  border: 2px solid #14cf33;
+  padding: 1rem;
+}
+
+footer {
+  padding: 3% 5%;
+  background: linear-gradient(70deg, #070707, rgba(253, 247, 247, 0.26), #0a0a0a);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+.botonFooter {
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor-botones-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.copyright {
+  color: #d8d4d4;
+  text-align: end;
+}
+
+body {
+  background-image: url(./Imagenes/Integrantes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scrollspy-example h4 {
+  color: #008000;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.scrollspy-example p {
+  background-color: rgba(16, 17, 17, 0.281);
+  color: #d8d4d4;
+  font-weight: bolder;
+}
+
+/*Integrantes*/
+.mainintegrantes {
+  width: 100vw;
+  margin: 2rem 0;
+}
+
+.container-int {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.container-int div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  width: 60%;
+}
+
+.container-int div img {
+  width: 100%;
+  height: 80%;
+}
+
+.container-int div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15%;
+  padding: 0 2%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+}
+
+.musicamain {
+  padding: 0%;
+  margin: none auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.musica {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(253, 242, 242, 0.164);
+  -ms-flex-item-align: center;
+      align-self: center;
+  max-width: none;
+  min-height: 50vh;
+}
+
+.Nacho {
+  padding: 2rem;
+  color: green;
+}
+
+.Sinaph {
+  padding: 2rem;
+  color: green;
+}
+
+.LujoMC {
+  padding: 2rem;
+  color: green;
+}
+
+.texttrash {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.textenajeno {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.textdivertirme {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.video-container {
+  position: absolute;
+  z-index: -100;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: calc(100vw *1, 777);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+}
+
+.header-content {
+  color: aliceblue;
+}
+
+.videoyoutube1 {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "vid1 vid2 vid3" "text1 text2 text3";
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.vid1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: vid1;
+}
+
+.vid2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: vid2;
+}
+
+.vid3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: vid3;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  color: #ffffff;
+}
+
+main h1:hover {
+  color: red;
+}
+
+main p {
+  color: #faebd7;
+}
+
+main p:hover {
+  color: red;
+}
+
+div h3 {
+  color: lightblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #008000;
+}
+
+fieldset {
+  color: #09ff67;
+}
+
+.mb3 {
+  color: #d8d4d4;
+}
+
+.sect-formulario {
+  grid-area: formulario;
+  max-width: 1000px;
+  width: 50vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sect-pad {
+  padding: 2rem 0;
+}
+
+form {
+  border: 2px solid #14cf33;
+  padding: 2rem;
+}
+
+/* animacion para titulo */
+.animated-shadow {
+  padding: 100px;
+  margin-top: auto;
+  color: #030000;
+  font: normal 30px Varela Round, sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-animation: move linear 2000ms infinite;
+          animation: move linear 2000ms infinite;
+  z-index: 2;
+}
+
+/*Animación para rotar las sombras*/
+@-webkit-keyframes move {
+  0% {
+    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc;
+  }
+  25% {
+    text-shadow: -4px -4px 0 #13f1fc, -3px -3px 0 #13f1fc, -2px -2px 0 #13f1fc, -1px -1px 0 #13f1fc, 4px 4px 0 #da0641, 3px 3px 0 #da0641, 2px 2px 0 #da0641, 1px 1px 0 #da0641;
+  }
+  50% {
+    text-shadow: -4px 4px 0 #da0641, -3px 3px 0 #da0641, -2px 2px 0 #da0641, -1px 1px 0 #da0641, 4px -4px 0 #13f1fc, 3px -3px 0 #13f1fc, 2px -2px 0 #13f1fc, 1px -1px 0 #13f1fc;
+  }
+  75% {
+    text-shadow: 4px 4px 0 #13f1fc, 3px 3px 0 #13f1fc, 2px 2px 0 #13f1fc, 1px 1px 0 #13f1fc, -4px -4px 0 #da0641, -3px -3px 0 #da0641, -2px -2px 0 #da0641, -1px -1px 0 #da0641;
+  }
+  100% {
+    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc;
+  }
+}
+@keyframes move {
+  0% {
+    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc;
+  }
+  25% {
+    text-shadow: -4px -4px 0 #13f1fc, -3px -3px 0 #13f1fc, -2px -2px 0 #13f1fc, -1px -1px 0 #13f1fc, 4px 4px 0 #da0641, 3px 3px 0 #da0641, 2px 2px 0 #da0641, 1px 1px 0 #da0641;
+  }
+  50% {
+    text-shadow: -4px 4px 0 #da0641, -3px 3px 0 #da0641, -2px 2px 0 #da0641, -1px 1px 0 #da0641, 4px -4px 0 #13f1fc, 3px -3px 0 #13f1fc, 2px -2px 0 #13f1fc, 1px -1px 0 #13f1fc;
+  }
+  75% {
+    text-shadow: 4px 4px 0 #13f1fc, 3px 3px 0 #13f1fc, 2px 2px 0 #13f1fc, 1px 1px 0 #13f1fc, -4px -4px 0 #da0641, -3px -3px 0 #da0641, -2px -2px 0 #da0641, -1px -1px 0 #da0641;
+  }
+  100% {
+    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

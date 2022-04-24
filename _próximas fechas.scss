@@ -1,0 +1,27 @@
+main {
+    text-align: center;
+
+    h1 {
+        color: $bgcolor;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    p {
+        color: $bgcolor2;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+div {
+    h3 {
+        color: lightblue;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
