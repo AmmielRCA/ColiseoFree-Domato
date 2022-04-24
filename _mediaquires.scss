@@ -1,0 +1,81 @@
+// medidas para resoluciones 1920, 1400, 1200, 992, 758 y 576 //
+
+@media screen and (max-width: 1400px) {
+    .videoyoutube1 {
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+            "vid1"
+            "text1"
+            "vid2"
+            "text2"
+            "vid3"
+            "text3";
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+    }
+
+    .videoyoutube1 p {
+        color: red;
+        font-weight: bold;
+        background-color: gray;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .mainbatallas {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container-int {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+
+
+    .menu {
+        width: 90%;
+
+    }
+
+    .menu li {
+
+        margin: 0 15px;
+    }
+
+    .box1 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        width: 100%;
+    }
+
+    .container-int {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .menu li a {
+        font-size: 14px;
+    }
+
+}
